@@ -41,7 +41,7 @@ export default class MostrarRandom extends React.Component{
     return (
       <View>
         <Text h1 style={styles.baseText}> {this.state.character} </Text>
-        <Text h3 style={styles.baseText}> {this.state.quote} </Text>
+        <Text style={styles.baseText}> {this.state.quote} </Text>
         <Image  style={styles.imagen}
           source = {{ uri: this.state.image }}
         />
